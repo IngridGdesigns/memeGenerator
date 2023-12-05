@@ -1,6 +1,6 @@
 # Meme Generator
 
-Practiced React by following ([Scrimba courses](https://scrimba.com/allcourses))
+Practiced creating a React meme app through ([Scrimba courses](https://scrimba.com/allcourses))
 
 Quick start:
 
