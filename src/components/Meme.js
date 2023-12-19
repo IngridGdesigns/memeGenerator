@@ -1,6 +1,15 @@
 import React from "react"
+/* To-do
+1 - read cat docs on getting images - 
+https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t
+2 - read fetch docs on included token - https://javascript.info/fetch
+3 - styling
+4 - read docs on how to download meme generated
+*/
 
 export default function Meme() {
+    // const { REACT_APP_CAT_API_TOKEN} = process.env;
+    
 
     const img = "http://i.imgflip.com/1bij.jpg"
     const [meme, setMeme] = React.useState({
@@ -62,7 +71,7 @@ export default function Meme() {
                 </button>
             </div>
             <div className="meme">
-                <img src={meme.randomImage} className="meme--image" />
+                <img src={meme.randomImage} className="meme--image" alt="meme"/>
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
